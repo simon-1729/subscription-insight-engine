@@ -29,6 +29,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ````
 
+###  Export "your" API key for OpenAI
+#### <span style="color:red">For example</span>
+````bash
+export OPENAI_API_KEY="si4-proj-_cv55Nk77IB87iMGQ7eTqcVue2MB3eVewMH-oNgxyfUIPdDvz7jTGT3BlbkFJ9okUCzS9_LLA9Ngjf-8LZRj6dIgAx_htCxXXrX4XXX67d4Xop1oPntt6HllRZb1uC-EyCdqWa-J3WgF3sQxKIA"
+````
+
 ###  Run the application
 ````bash
 uvicorn app.main:app --reload
