@@ -42,3 +42,6 @@ uvicorn app.main:app --reload
 
 ### Check service is up!
 http://localhost:8000/docs
+
+### Check OpenAI integration
+http://localhost:8000/llm-test
